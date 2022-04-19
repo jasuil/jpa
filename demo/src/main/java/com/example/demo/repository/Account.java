@@ -29,7 +29,7 @@ public class Account {
 
     @ManyToOne private Customer customer;
 
-    @Temporal(TemporalType.TIMESTAMP) private LocalDate expiryDate;
+    private LocalDate expiryDate;
 
     public Long getId() {
         return id;
